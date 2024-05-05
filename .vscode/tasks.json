@@ -12,7 +12,7 @@
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
-                "-L/path/to/libraries",   // Specify library path
+                "-L./lib",   // Specify library path
                 "-lgcc",                  // Link against libgcc
                 "-lstdc++"                // Link against libstdc++
             ],
